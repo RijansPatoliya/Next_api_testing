@@ -56,12 +56,18 @@ The automated tests validate the following:
 ### 1️⃣ Install dependencies  
 ```bash
 npm install
+```
+```bash
 2️⃣ Run Playwright tests
-
 npx playwright test
+```
+
+```bash
 3️⃣ View the HTML test report
 
 npx playwright show-report
+
+```
 📊 Example Test Flow
 
 Request /api/companies/count without filters → Expect total company count
